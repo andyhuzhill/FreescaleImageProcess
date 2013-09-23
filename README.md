@@ -76,9 +76,15 @@
 上位机运行如下图所示
 ![](http://andyhuzhill.github.io/images/freescale/FreeScale2.png)
 
+FreeScale2程序还有一个调试电机PID程序的功能。
+使用方法就是用串口发回编码器采集回的转速，上位机绘制出曲线图。
+下面是几个采集的图像。
+![](http://andyhuzhill.github.io/images/freescale/pidchaotiao.jpg)
+![](http://andyhuzhill.github.io/images/freescale/pidwending.jpg)
+![](http://andyhuzhill.github.io/images/freescale/pidzhengdang.jpg)
 ### FreeScale3
 
-    上面那个数据格式需要下位机发送已二值化且存在50x50数组里面的数据，因为每次只发送1或0，比较浪费时间，于是，我改成直接发送摄像头采集回来的一个字节八个像素点的数据，然后用上位机将图像展开成80x60的数组里面。
+上面那个数据格式需要下位机发送已二值化且存在50x50数组里面的数据，因为每次只发送1或0，比较浪费时间，于是，我改成直接发送摄像头采集回来的一个字节八个像素点的数据，然后用上位机将图像展开成80x60的数组里面。
 
  示例图像数据如下：
  
