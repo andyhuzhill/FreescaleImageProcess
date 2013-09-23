@@ -74,7 +74,7 @@
 
 
 上位机运行如下图所示
-![](/images/freescale/FreeScale2.png)
+![](http://andyhuzhill.github.io/images/freescale/FreeScale2.png)
 
 ### FreeScale3
 
@@ -89,4 +89,4 @@
     img
  
 上位机运行如下图所示
-![](/images/freescale/FreeScale3.png)
+![](http://andyhuzhill.github.io/images/freescale/FreeScale3.png)
